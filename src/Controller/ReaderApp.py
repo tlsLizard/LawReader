@@ -3,7 +3,7 @@ try:
     from PySide6.QtWidgets import QApplication #  controller
 except ImportError as e:
     #  incase PySide6 can't be loaded, despide environment checks in main script, revert to console app
-    print(f"can't load the gui app (Failed to load PySide6)"
+    print(f"can't load the gui app (Failed to load PySide6)")
     print(f"raw error message: {e}")
     #  ask the user if they want to run the consoleApp 
     while True:
