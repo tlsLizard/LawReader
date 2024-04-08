@@ -1,6 +1,6 @@
 """
-console app to display the head of a test file,
-or pick a line to display in the body of the article
+console app to display the head of a text file,
+or pick a line to display in the body of file
 """
 import os
 from src.Model.Document import Document
