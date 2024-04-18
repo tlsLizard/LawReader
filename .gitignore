@@ -4,3 +4,5 @@ __pycache__/
 src/Controller/__pycache__/
 src/Model/__pycache__/
 src/View/__pycache__/
+check_env.py
+
